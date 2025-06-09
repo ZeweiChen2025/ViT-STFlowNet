@@ -14,6 +14,7 @@
 conda create -n vitst python=3.9
 conda install pytorch==2.0.1 torchvision==0.15.2 -c pytorch
 pip install einops torchinfo matplotlib
+```
 
 ## 🚀 Training (Example)
 ```bash
@@ -22,3 +23,4 @@ python train.py \
   --loss_num 3 \
   --encoder_depth 4 \
   --batch_size 64
+```

@@ -16,19 +16,9 @@ conda install pytorch==2.0.1 torchvision==0.15.2 -c pytorch
 pip install einops torchinfo matplotlib
 
 ## Training (Example)
+```bash
 python train.py \
   --method_type 2 \
   --loss_num 3 \
   --encoder_depth 4 \
   --batch_size 64
-
-Code Architecture
-Module	Key Functionality	Technical Highlights
-cell_utils.py	Geometric preprocessing	• SDF computation
-• 2D sinusoidal positional embedding
-layer.py	Transformer backbone	• Patch embedding with adaptive grids
-• Multi-head spatiotemporal attention
-losses.py	Physics-informed loss	• Gradient-enhanced RMSE
-• Dynamic loss weighting
-train.py	Training pipeline	• LR scheduling with warmup
-• Mixed-precision training

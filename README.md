@@ -17,7 +17,7 @@ pip install einops torchinfo matplotlib
 ```
 
 ## 🚀 Testing (Example)
-Test mach number can be 0.31, 0.4, 0.54, 0.63
+Test mach number can be 0.31, 0.4, 0.54, 0.63 \
 	When downloading the repository as a compressed package, the model file (.pth) may be corrupted during compression and thus cannot be used directly. To ensure proper execution of the test.py script, we recommend downloading the model file method2_2loss_minloss.pth separately and replacing the corresponding model file in the compressed folder with this standalone version. This will allow the test script to run as intended.
 ```bash
 python test.py \

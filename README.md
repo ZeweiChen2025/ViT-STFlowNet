@@ -1,5 +1,3 @@
-# ViT-STFlowNet
-=======
 # ViT-STFlowNet: Geometry-Adaptive Spatiotemporal Flow Prediction Framework
 
 ![Framework Overview](doc/ViT_STFlowNet.png)

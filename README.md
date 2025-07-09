@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-# ViT-STFlowNet
-=======
-<<<<<<< HEAD
-# ViT-STFlowNet
-=======
-<<<<<<< HEAD
-# ViT-STFlowNet
-=======
-<<<<<<< HEAD
 # ViT-STFlowNet
 =======
 # ViT-STFlowNet: Geometry-Adaptive Spatiotemporal Flow Prediction Framework
@@ -36,5 +26,3 @@ python test.py \
 python contour.py \
   --test_ma 0.31
 ```
-
->>>>>>> 7340a44 (first commit)

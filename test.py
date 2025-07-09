@@ -13,7 +13,7 @@ parser = argparse.ArgumentParser(description="ViT-STFlowNet")
 
 parser.add_argument('--test_ma',
                     type=float,
-                    default=0.63,
+                    default=0.31,
                     help="Test mach: 0.31, 0.4, 0.54, 0.63")
 parser.add_argument("--method_type",
                     default=2,
